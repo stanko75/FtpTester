@@ -5,7 +5,7 @@ namespace FtpTester.Models;
 /// <summary>
 /// Connection settings supplied by the dashboard for FTP, FTPS, and SFTP operations.
 /// </summary>
-public sealed class ConnectionRequest
+public class ConnectionRequest
 {
     /// <summary>Protocol used for the operation.</summary>
     [Required]
